@@ -15,10 +15,10 @@ nltk.download('stopwords')
 matplotlib.use('TkAgg')
 
 # twitter authentication
-consumerKey = '7qWxOSZyRP0BxgV4nBoLY7vRQ'
-consumerSecret = 'zWeSmr5583y8bYsL4ndSz1u1gUaaY7TXVURJECRGjhsRWK1RGJ'
-accessToken = '973813387858673665-jWYUfTDNcGZ8Yy81c1rjcv8afCT4rrf'
-accessTokenSecret = 'epLaVzAEG5Tn7RjIzN1IYljnC0VNUppJkLkzARnUZ7n90'
+consumerKey = '*'
+consumerSecret = '*'
+accessToken = '*'
+accessTokenSecret = '*'
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
