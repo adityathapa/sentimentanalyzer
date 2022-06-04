@@ -33,7 +33,7 @@ def news_gui(st, c1, searchTerm):
         c1.markdown("## Some recent news headlines about the topic.")
         c1.markdown("  ")
 
-        def show_tweets(x):
+        def show_news(x):
             container = st.container()
             with container:
                 col1, space, col2, col3 = st.columns(([2.5,0.5,2,2]))
@@ -50,7 +50,7 @@ def news_gui(st, c1, searchTerm):
 
         for x in df.index:
             if no!= 0:
-                show_tweets(x)
+                show_news(x)
                 st.write("\n")
             else:
                 continue

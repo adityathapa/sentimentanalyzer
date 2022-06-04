@@ -2,7 +2,6 @@ import re
 import pandas as pd
 import twitter_analysis as twan
 import matplotlib.pyplot as plt
-import twitter_analysis as twan
 import plotly.graph_objects as go
 from langdetect import detect
 import hydralit_components as hc
